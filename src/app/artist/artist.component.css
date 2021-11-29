@@ -1,0 +1,152 @@
+#about-container {
+    height: 100%;
+    overflow: auto;
+}
+
+#about-container-inner {
+    display: grid;
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-row-gap: 1em;
+}
+
+.top-nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: #222;
+    border-color: #080808;
+    height: 55px;
+    border-radius: 4px;
+    align-items: center;
+    padding: 1em;
+}
+
+.welcome-txt {
+    color: #fff;
+}
+
+.top-nav-items {
+    list-style-type: none;
+}
+
+.top-nav-items>li {
+    display: inline;
+}
+
+.top-nav-items>li>a {
+    color: #fff;
+    padding: 5px;
+}
+
+.logo-txt {
+    font-size: 1.75em !important;
+    font-weight: bold;
+}
+
+.white {
+    background-color: #fff !important;
+}
+
+.banner {
+    height: 340px;
+    color: #000;
+    border-radius: 10px;
+    background-image: url('../../assets/img/whistler.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 15% 14%;
+    color: #fff;
+    padding: 3em;
+}
+
+.main-nav {
+    border: 1px solid #e5e5e5;
+}
+
+.art-content {
+    display: grid;
+}
+
+.art-c1-content {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    grid-column-gap: 2em;
+}
+
+.left {
+    background-image: url('../../assets/img/113010.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.red-text {
+    color: red;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.btn-bordered {
+    border: 1px solid #ccc;
+}
+
+.product-table {
+    width: 100%;
+}
+
+.product-table>thead>tr {
+    background-color: #f1f1f1;
+}
+
+.product-table>td {
+    background-color: 1px solid #ccc;
+    padding: 2px 3px;
+}
+
+.similar-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    /*height: 300px;*/
+    justify-items: center;
+    text-align: center;
+    grid-column-gap: 1em;
+    margin: 20px 0px;
+}
+
+.small-text {
+    font-size: .95em;
+}
+
+.bordered {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 1em;
+}
+
+/* art container grid start */
+.art-container-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+    justify-items: center;
+}
+.artist-card {
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+h2.small {
+    font-size: 1.5em;
+    padding: 20px auto 10px;
+}
+/* art container grid end */
+
+.alert-text {
+    margin-bottom: 0;
+}

@@ -1,0 +1,176 @@
+#about-container {
+    height: 100%;
+    overflow: auto;
+}
+
+#about-container-inner {
+    display: grid;
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-row-gap: 1em;
+}
+
+.top-nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: #222;
+    border-color: #080808;
+    height: 55px;
+    border-radius: 4px;
+    align-items: center;
+    padding: 1em;
+}
+
+.welcome-txt {
+    color: #fff;
+}
+
+.top-nav-items {
+    list-style-type: none;
+}
+
+.top-nav-items>li {
+    display: inline;
+}
+
+.top-nav-items>li>a {
+    color: #fff;
+    padding: 5px;
+}
+
+.logo-txt {
+    font-size: 1.75em !important;
+    font-weight: bold;
+}
+
+.white {
+    background-color: #fff !important;
+}
+
+.banner {
+    height: 340px;
+    color: #000;
+    border-radius: 10px;
+    background-image: url('../../assets/img/whistler.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 15% 14%;
+    color: #fff;
+    padding: 3em;
+}
+
+.main-nav {
+    border: 1px solid #e5e5e5;
+}
+
+.art-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.art-c1-content {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    grid-column-gap: 2em;
+}
+
+.left {
+    background-image: url('../../assets/img/113010.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.red-text {
+    color: red;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.btn-bordered {
+    border: 1px solid #ccc;
+}
+
+.product-table {
+    width: 100%;
+}
+
+.product-table>thead>tr {
+    background-color: #f1f1f1;
+}
+
+.product-table>td {
+    background-color: 1px solid #ccc;
+    padding: 2px 3px;
+}
+
+.similar-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    /*height: 300px;*/
+    justify-items: center;
+    text-align: center;
+    grid-column-gap: 1em;
+    margin: 20px 0px;
+}
+
+.small-text {
+    font-size: .95em;
+}
+
+.bordered {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 1em;
+}
+
+/*footer start */
+.top-footer {
+    background-color: #E7E7E7;
+}
+
+.footer-inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1em;
+    width: 80%;
+    margin: 0px auto;
+    height: 350px;
+    padding: 10px 0px 0px;
+}
+
+.medium-text {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list>li {
+    margin-bottom: 15px;
+    overflow: auto;
+}
+
+ul.footer-list>li>img {
+    float: left;
+    margin-right: 10px;
+}
+
+.footer-links {
+    padding: 15px 0px;
+    display: block;
+}
+
+.bottom-footer {
+    text-align: center;
+    background-color: #000;
+}
+
+
+/*footer end */
